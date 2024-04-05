@@ -20,5 +20,9 @@ Lab files for Azure AI Services modules
 - save it and run  sh rest-test.sh and the terminal will return a json doc stating the language it detected
 
 # Ceate key vault
+- in the Azure portals Home page, select the ＋Create a resource button and look for Key Vault, and create a Key Vault
+- Give it the same resource group and region as your AI services account
+- in the access config tab click on the permission model and pick vault access policy, then go down and pick the user thats gonna have access
+  
 
 
