@@ -13,4 +13,6 @@ Lab files for Azure AI Services modules
 
 # Install AZ CLI
 - https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli
+- use the following command to get the list of Azure AI services keys, replacing <resourceName> with the name of your Azure AI services resource, and <resourceGroup> with the name of the resource group in which you created it.
+-  az cognitiveservices account keys list --name <resourceName> --resource-group <resourceGroup>
 
