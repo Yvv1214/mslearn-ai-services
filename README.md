@@ -11,3 +11,6 @@ Lab files for Azure AI Services modules
 # Use SDK
 -  pip install azure-ai-textanalytics==5.3.0
 
+# Install AZ CLI
+- https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli
+
