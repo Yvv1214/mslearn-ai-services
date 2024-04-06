@@ -44,4 +44,10 @@ Lab files for Azure AI Services modules
 - theres also a code file with a detectlanguage function
 - run the code
 
+# setup Alerts
+- go to ur resources and select one
+- in the left look for alerts and create one
+- u can add metrics to a dashboard as well by creating a dashboard
+- 
+
 
