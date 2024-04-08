@@ -48,6 +48,13 @@ Lab files for Azure AI Services modules
 - go to ur resources and select one
 - in the left look for alerts and create one
 - u can add metrics to a dashboard as well by creating a dashboard
-- 
+- view your keys with az cognitiveservices account keys list --name <resourceName> --resource-group <resourceGroup>
+- go back to your alert and you will see a notification
 
+# Visualize metrics
+- go to your Azure AI services and click on metrics create one if needed
+- In rest-test.cmd from Labfiles/03-monitor-ai-services input your endpoint and Key 1 in the Curl command then run  ./rest-test.cmd
+- go back and to your metrics page and look at the chart
+
+#
 
