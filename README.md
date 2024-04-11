@@ -56,5 +56,12 @@ Lab files for Azure AI Services modules
 - In rest-test.cmd from Labfiles/03-monitor-ai-services input your endpoint and Key 1 in the Curl command then run  ./rest-test.cmd
 - go back and to your metrics page and look at the chart
 
-#
+# Containers
+- In Azure services find and create a contianer instances
+- In Advanced Tab:
+- Environment variables:
+-  Yes	| ApiKey |	Either key for your Azure AI services resource
+-  Yes	| Billing |	The endpoint URI for your Azure AI services resource
+-  No	| Eula	accept
+
 
