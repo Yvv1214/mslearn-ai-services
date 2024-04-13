@@ -64,4 +64,6 @@ Lab files for Azure AI Services modules
 -  Yes	| Billing |	The endpoint URI for your Azure AI services resource
 -  No	| Eula	accept
 
+# Train classification Image model
+- 
 
