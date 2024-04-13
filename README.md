@@ -65,5 +65,8 @@ Lab files for Azure AI Services modules
 -  No	| Eula	accept
 
 # Train classification Image model
+- create new resource and find custom vision in the azure portal
+- go to https://customvision.ai and create new project
+- there are img in 17-image-classification/training-images folder download them and add all apples at once and tag them, then the bananas etc
 - 
 
