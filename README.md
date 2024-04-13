@@ -67,6 +67,7 @@ Lab files for Azure AI Services modules
 # Train classification Image model
 - create new resource and find custom vision in the azure portal
 - go to https://customvision.ai and create new project
-- there are img in 17-image-classification/training-images folder download them and add all apples at once and tag them, then the bananas etc
+- get 15 images for apple and upload and tag them and do the same for other fruits
+- train the model and pick the quick training option
 - 
 
