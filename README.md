@@ -67,7 +67,16 @@ Lab files for Azure AI Services modules
 # Train classification Image model
 - create new resource and find custom vision in the azure portal
 - go to https://customvision.ai and create new project
-- get 15 images for apple and upload and tag them and do the same for other fruits
+- get 15 images for apple and upload and tag them and do the same for other fruits, u need to have atleast 2 tags used and each tag should be atleast in 5 images
 - train the model and pick the quick training option
-- 
+- do a quick test and see the metrics
+- in the upper right click on settings and note the project and resourse for your project resource
 
+# Use training API
+- add the endpoint and key for your Custom Vision training resource, and the project ID in the .env in the train-classifier folder
+- cd into the directory and pip install azure-cognitiveservices-vision-customvision==3.1.0
+- python train-classifier.py
+- return to customvision portal and refresh the page and see if ome new tagged images have been added to the project
+
+# Use the image classifier from a client application
+- 
