@@ -78,5 +78,9 @@ Lab files for Azure AI Services modules
 - python train-classifier.py
 - return to customvision portal and refresh the page and see if ome new tagged images have been added to the project
 
-# Use the image classifier from a client application
-- 
+# Facial recognition
+- https://github.com/MicrosoftLearning/mslearn-ai-vision go to 04-face folder and cd into computer vision
+-  pip install azure-ai-vision==0.15.1b1
+-  add endpoint and key in the .env
+-  in the code file there is a # import namespaces, add this below it: import azure.ai.vision as sdk
+-  
