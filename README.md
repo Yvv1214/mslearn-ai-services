@@ -306,4 +306,17 @@ for word in line.words:
 - run again
 
 # Azure Video Indexer
+- upoad a vid at https://www.videoindexer.ai
+- In the Insights pane, select the View symbol, and in the list of insights, add Keywords and Sentiments to the pane.
+- In the search box enter the one word that describes your video and see if its labeled
+
+# Use Video Analyzer widgets
+- In 06-video-indexer folder open analyze-video.html
+- Then go to your uploaded video and then click </> Embed to see the iframe, set the widget into player and size it 560 x 315
+- under <– Player widget goes here – > in the code file paste the iframe code
+- Then on widget switch it back to insight and copy the code again and paste under <– Insights widget goes here – >  the difference will the iframe size
+- save and right-click analyze-video.html and select Reveal in File Explorer
+- open analyze-video.html in your browser and experiment with the widgets
+
+# 
 - 
