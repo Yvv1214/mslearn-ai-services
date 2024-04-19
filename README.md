@@ -318,5 +318,22 @@ for word in line.words:
 - save and right-click analyze-video.html and select Reveal in File Explorer
 - open analyze-video.html in your browser and experiment with the widgets
 
-# 
+# Analyze Text
+- https://github.com/MicrosoftLearning/mslearn-ai-language
+- Go to and CD into Labfiles/01-analyze-text
+- Install  pip install azure-ai-textanalytics==5.3.0
+- and pip install python-dotenv
+- Add these imports:
+```
+ from azure.core.credentials import AzureKeyCredential
+ from azure.ai.textanalytics import TextAnalyticsClient
+```
+- In the main function under  # Create client using endpoint and key, add:
+```
+ credential = AzureKeyCredential(ai_key)
+ ai_client = TextAnalyticsClient(endpoint=ai_endpoint, credential=credential)
+```
+- run python text-analysis.py
+
+# Detect Language
 - 
